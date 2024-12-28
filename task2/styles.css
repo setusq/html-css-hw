@@ -1,0 +1,117 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px 0;
+    border-bottom: 2px solid #ff66cc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff66cc;
+}
+
+header nav {
+    display: flex;
+    gap: 10px;
+}
+
+header nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+header nav a:hover {
+    color: #ff66cc;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.about-game {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 40px;
+}
+
+.about-game .text-content {
+    flex: 1;
+}
+
+.about-game h2 {
+    font-size: 32px;
+    color: #ff66cc;
+    margin-bottom: 20px;
+}
+
+.about-game p {
+    font-size: 16px;
+    color: #cccccc;
+}
+
+.about-game .image-content img {
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    border: 4px solid #ff66cc;
+}
+
+.features {
+    background-color: #262626;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.features h2 {
+    font-size: 32px;
+    color: #ff66cc;
+    margin-bottom: 20px;
+}
+
+.features ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.features ul li {
+    background-color: #333333;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #ffffff;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #cccccc;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #000000;
+    border-top: 1px solid #333333;
+}

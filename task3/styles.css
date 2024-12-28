@@ -1,0 +1,101 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1a1a1a;
+    color: #ffffff;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #000000;
+    padding: 20px 0;
+    border-bottom: 2px solid #ff66cc;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff66cc;
+}
+
+main {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.product-cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.card {
+    background-color: #262626;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.card h2 {
+    font-size: 24px;
+    color: #ff66cc;
+    margin-bottom: 15px;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.card p {
+    font-size: 16px;
+    color: #cccccc;
+    margin-bottom: 15px;
+}
+
+.card .price {
+    font-size: 20px;
+    font-weight: bold;
+    color: #ff66cc;
+    margin-bottom: 15px;
+}
+
+.card button {
+    background-color: #ff66cc;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.card button:hover {
+    background-color: #e65cb2;
+}
+
+footer {
+    text-align: center;
+    font-size: 14px;
+    color: #cccccc;
+    padding: 20px 0;
+    margin-top: 40px;
+    background-color: #000000;
+    border-top: 1px solid #333333;
+}
